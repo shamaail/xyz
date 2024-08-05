@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // 'use strict'
+    // let questions = [
+    //     {
+    //         "question" : "Why students dont undestand?",
+    //         "options" : "1. Dont want to \n 2. Dumb \n 3. Teacher is not good enough \n 4. Hello",
+    //         "correctAnswer" : "2"
+    //     },
+    //     {
+    //         "question" : "Why js students dont undestand?",
+    //         "options" : "1. Dont want to \n 2. Dumb \n 3. Teacher is not good enough \n 4. Hello",
+    //         "correctAnswer" : "3"
+    //     },
+    // ]
+
+    // let i = 0;
+    // let score = 0;
+    // while(i  < questions.length){
+    //     let answer = prompt("Select one option\n"+ questions[i].question+"\n"+questions[i].options)
+    //     if(answer === questions[i].correctAnswer){
+    //         alert("Doing great")
+    //         score++;
+    //     }else{
+    //         alert("Wrong")
+    //     }
+    //     i++;
+
+    // }
+
+    // alert("Total score is "+ score)
+      
+
+    'use strict'
+    let questions = [
+        {
+        "question" : "Which is the outermost planet in the solar system?",
+        "options" : "1. Mercury \n 2.Pluto \n 3.Neptune \n 4.Uranus",
+        "correctAnswer" : "3"
+        },
+        {
+           "question" : "The SI unit of charge is __________?",
+           "options" : "1. Ampere\n 2. Coulomb\n 3.Ohm\n 4.Volt",
+           "correctAnswer" : "2"
+
+        },
+        {
+           "question" : "A person living permanently in a certain place.",
+           "options" : "1. resident\n 2. Native\n 3.Domicile\n 4.Subject",
+           "correctAnswer" : "2"
+        },
+         {
+           "question" : "To improve jumping record the jumper should jump at the angle of",
+           "options" : "1. 30\n 2. 90\n 3.60\n 4.45",
+           "correctAnswer" : "4"
+        },
+           {
+           "question" : "Which of the following is used in pencils?",
+           "options" : "1. Graphite\n 2. Silicon\n 3.Charcol\n 4.Phosphorus",
+           "correctAnswer" : "1"
+        }
+    ]
+
+    let i = 0;
+    let score = 0;
+    while(i < questions.length){
+        let answer = prompt("Select one option\n"+ questions[i].question+"\n"+questions[i].options);
+        if(answer === questions[i].correctAnswer){
+            alert("Doing great")
+            score++
+        }else{
+            alert("Wrong")
+        }i++
+    }
+    alert("Total score is "+ score)
+
+    
+    </script>
+</body>
+</html>
